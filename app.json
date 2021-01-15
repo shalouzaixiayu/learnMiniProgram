@@ -4,11 +4,31 @@
     "pages/about/about"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WX",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "微信小程序开发",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#dd2",
+    "backgroundTextStyle": "light"
+  },
+
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#d3d3d3",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/ico/1.jpg",
+        "selectedIconPath": "static/ico/2.jpg"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "static/ico/3.jpg", 
+        "selectedIconPath": "static/ico/4.jpg"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
+
 }

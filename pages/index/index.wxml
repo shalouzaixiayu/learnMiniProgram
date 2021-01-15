@@ -1,2 +1,22 @@
 <!--pages/index/index.wxml-->
+<!-- 基础语法 -->
 <text>Helllo World</text>
+<text>{{ msg }}</text>
+
+<!-- 列表 -->
+<!-- <block wx:for="{{student}}" wx:key="*this">
+  {{index}} -- {{item}}
+</block>
+
+<block wx:for="{{[1, 2, 3, 4]}}" wx:key="*this">
+  {{index}} -- {{item}}
+</block> -->
+
+<!-- 事件监听 -->
+<text>当前计数: {{counter}}</text>
+<button size="mini" bindtap="increaseClick">+</button>
+<button size="mini" bindtap="decreaseClick">-</button>
+<textarea>
+  嗡嗡嗡
+</textarea>
+
